@@ -1,0 +1,5 @@
+[{"eval":"history.back()","sleep":2500},
+ {"eval":"document.querySelector('[data-chat-provider-model-picker]')?.click()","sleep":1200},{"shot":"shots/TAG-pop.png"},
+ {"key":"Escape","vk":27,"sleep":500},
+ {"eval":"document.querySelector('button[aria-label=Settings]')?.click()","sleep":2000},{"shot":"shots/TAG-settings.png"},
+ {"eval":"history.back()","sleep":1500}]
